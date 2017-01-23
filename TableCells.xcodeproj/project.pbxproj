@@ -13,6 +13,7 @@
 		0C5894931E34ED8400F83B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5894911E34ED8400F83B17 /* Main.storyboard */; };
 		0C5894951E34ED8400F83B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5894941E34ED8400F83B17 /* Assets.xcassets */; };
 		0C5894981E34ED8400F83B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5894961E34ED8400F83B17 /* LaunchScreen.storyboard */; };
+		0C5894A11E34EF0700F83B17 /* NameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5894A01E34EF0700F83B17 /* NameAndColorCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0C5894941E34ED8400F83B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5894971E34ED8400F83B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C5894991E34ED8400F83B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C58949F1E34EF0700F83B17 /* NameAndColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameAndColorCell.h; sourceTree = "<group>"; };
+		0C5894A01E34EF0700F83B17 /* NameAndColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameAndColorCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				0C58948E1E34ED8400F83B17 /* ViewController.h */,
 				0C58948F1E34ED8400F83B17 /* ViewController.m */,
 				0C5894911E34ED8400F83B17 /* Main.storyboard */,
+				0C58949F1E34EF0700F83B17 /* NameAndColorCell.h */,
+				0C5894A01E34EF0700F83B17 /* NameAndColorCell.m */,
 				0C5894941E34ED8400F83B17 /* Assets.xcassets */,
 				0C5894961E34ED8400F83B17 /* LaunchScreen.storyboard */,
 				0C5894991E34ED8400F83B17 /* Info.plist */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5894A11E34EF0700F83B17 /* NameAndColorCell.m in Sources */,
 				0C5894901E34ED8400F83B17 /* ViewController.m in Sources */,
 				0C58948D1E34ED8400F83B17 /* AppDelegate.m in Sources */,
 				0C58948A1E34ED8400F83B17 /* main.m in Sources */,

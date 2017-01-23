@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+// 表视图的数据源控制器类
+@interface ViewController : UIViewController <UITableViewDataSource>
 
 
 @end
